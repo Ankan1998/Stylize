@@ -37,6 +37,7 @@ def load_model_style_transfer(model_path):
 
 def stylize(style_model, content_img, out_img):
 
+
     content_image = utils.load_image(content_img)
     content_transform = transforms.Compose([
         transforms.ToTensor(),
