@@ -37,7 +37,7 @@ def load_model_style_transfer(model_path):
 
 
 @st.cache
-def stylize(style_model, content_img):
+def stylize(style_model, content_img,out_img):
 
 
     content_image = utils.load_image(content_img)
@@ -50,8 +50,8 @@ def stylize(style_model, content_img):
     with torch.no_grad():
         output = style_model(content_image).cpu()
     
-    img = output[0].clone().clamp(0, 255).numpy()
-    img = img.transpose(1, 2, 0).astype("uint8")
-    return img
+    # img = output[0].clone().clamp(0, 255).numpy()
+    # img = img.transpose(1, 2, 0).astype("uint8")
+    utils.save_image(out_img, output[0])
     
     
