@@ -1,5 +1,5 @@
 # Stylize
-Webapp for Style Transfer made with Pytorch and Streamlit Library
+This is a Webapp made with Streamlit library. TransformerNet is used to implement neural style Transfer in Pytorch. There are four types of styles at the moment. There is option to "DOWNLOAD" the stylized image
 
 ### Sample
 
