@@ -24,6 +24,6 @@ This is a Webapp made with *Streamlit* library. *TransformerNet* is used to impl
 <br>
 
 ### *TASKLIST*
-[x] Inference 
-[x] Webapp
-[ ] Training Script
+* [x] Inference 
+* [x] Webapp
+* [ ] Training Script
