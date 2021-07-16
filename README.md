@@ -4,7 +4,7 @@ This is a Webapp made with *Streamlit* library. *TransformerNet* is used to impl
 <hr>
 <br>
 
-## *Sample*
+## *Web-App*
 <br>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/36896102/125757012-7a55bda4-f801-4cc1-a594-f3e8a39c5949.png" width =400 height=200>
