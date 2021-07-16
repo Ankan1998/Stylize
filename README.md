@@ -17,6 +17,7 @@ This is a Webapp made with *Streamlit* library. *TransformerNet* is used to impl
 ## *Requirements*
 * Streamlit
 * torch = 1.6.0
+* torchvision = 0.7.0
 * PIL
 * opencv
 * Numpy
