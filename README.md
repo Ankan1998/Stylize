@@ -24,6 +24,13 @@ This is a Webapp made with *Streamlit* library. *TransformerNet* is used to impl
 
 <br>
 
+## *Installation*
+
+```python
+cd neural_style
+streamlit run main.py
+```
+
 ### *TASKLIST*
 * [x] Inference 
 * [x] Webapp
